@@ -1,8 +1,8 @@
 # zabbix_APC_Smart_UPS
 
-Шаблон для мониторинга источников бесперебойного питания APC Smart-UPS по SNMP v1.
+Template for monitoring APC Smart-UPS SNMP v1 by uninterruptible power supplies.
 
-Элементы данных:
+Data elements:
 
 APC Smart UPS - Ampers	 .1.3.6.1.4.1.318.1.1.1.4.2.4.0 		
 APC Smart UPS - Battery Capacity 	.1.3.6.1.4.1.318.1.1.1.2.2.1.0  		
@@ -22,8 +22,7 @@ APC Smart UPS - Basic Output Status (On-line)	.1.3.6.1.4.1.318.1.1.1.4.1.1.0
 APC Smart UPS - Battery Status	.1.3.6.1.4.1.318.1.1.1.2.1.1.0		
 APC Smart UPS - Replace Battery	.1.3.6.1.4.1.318.1.1.1.2.2.4.0		
 			
-
-Для корректной работы шаблона, рекомендуется добавить преобразование значений: "Администрирование -> Общие -> Преобразование значений"
+For correct operation of the pattern, it is recommended to add the conversion values: "Administration -> General -> Convert values"
 
 PC Battery Replacement Status:
 1  unknown
